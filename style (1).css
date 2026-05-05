@@ -1,0 +1,723 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Roboto", sans-serif; 
+    font-size: 13px;
+}
+
+.main{
+    text-decoration: none;
+    color: #AD9966;
+    font-weight: 500;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+a:hover{
+    color: #AD9966;
+}
+
+#logoimg{
+    margin-right: 17px;
+    width: 66.81px; 
+    height: 79.38;
+}
+ul{
+    padding: 0;
+}
+
+header li{
+    z-index: 10;
+    display: inline-block;
+    line-height: 10px;
+    margin-left: 65px;
+}
+
+header{
+    
+    text-align: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.dropdown{
+   position: absolute;
+   background-color: white;
+   width: 60px;
+   padding-right: 130px;
+   padding-left: 20px;
+   padding-bottom: 15px;
+   display: none;
+}
+
+.hoverpages:hover .dropdown {
+    display: block;
+}
+
+dd{
+    margin-top: 20px;
+}
+
+#ddwide{
+    width: 70px;
+    padding-left: 0;
+    text-align: left;
+}
+
+.baixo{
+    margin-top: 50px;
+}
+
+#logo{
+    width: 20%;
+    vertical-align: middle;
+    padding: 1%;
+}
+
+
+
+#section01{height: 750px;
+    background-image: url(header-bg.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 0;
+}
+
+
+.H1{
+    position:absolute;
+    top: 41%;
+    right: 38.5%;
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 72px;
+    font-weight: lighter;
+    letter-spacing: 8px;
+}
+
+
+.p{
+    position:absolute;
+    top: 55%;
+    left: 44%;
+    color: white;
+    font-size: 18px;
+}
+#appe{
+  border: none;
+    height: 1px;           /* ou 0.5px */
+    background: #999191;
+    width: 10%;
+    position: absolute;
+    top: 10%;
+    left: 68.6%;
+}
+#maincoursee {
+  border: none;
+    height: 1px;           /* ou 0.5px */
+    background: #999191;
+    width: 10%;
+    position: absolute;
+    top: 34.3%;
+    left: 68.6%;
+}
+#juicee {
+  border: none;
+    height: 1px;           /* ou 0.5px */
+    background: #999191;
+    width: 10%;
+    position: absolute;
+    top: 58.7%;
+    left: 68.6%;
+}
+hr{
+    
+ 
+    border: none;
+    height: 1px;          
+    background: #ffffff;
+    width: 25%;
+    position: absolute;
+    top: 52.7%;
+    left: 38%;
+}
+
+#right{
+width: 90px;
+height: 20vh;
+position: fixed;
+top: 250px;
+right: 0%;
+}
+#direita{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    top: 496px;
+    right: 0px;
+    transform: rotate(-90deg);
+    z-index: 2;
+}
+
+#right:hover #direita{ transform: rotate(-0deg);
+transition: 0.5s;}
+
+#left{
+position: fixed;
+top: 250px;
+}
+
+#esquerda{
+    position: fixed;
+    top: 496px;
+    left: 7px;
+    transform: rotate(90deg);
+    z-index: 2;
+}
+
+#botaoesquerda{
+    position: absolute;
+    top: 163px;
+    z-index: 1;
+}
+#botaodireita{
+    position: absolute;
+    top: 163px;
+    z-index: 1;
+}
+
+
+
+#left:hover #esquerda{ transform: rotate(-0deg);
+transition: 0.5s;}
+
+
+
+#section02{
+    height: 750px;
+    position: relative;
+    width: 70%;
+    height: 1140px;
+    margin: auto;
+}
+#borabill{
+    position: absolute;
+    top: 29%;
+    left: -10%;
+}
+#menu{
+    display: inline-block;
+    background-color: #faf5f0;
+    width: 49%;
+    height: 1200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#daily{
+    display: inline-block;
+    width: 49%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 0;
+    padding: 0;
+}
+
+#daily h1{
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-weight: lighter;
+    width: 90%;
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 0;
+}
+
+#daily p{
+    line-height: 30px;
+    color: gray;
+    width: 60%;
+    text-align: left;
+    margin-left: 130px;
+}
+
+.APPETIZER{
+    padding: 20px;
+    margin: 60px;
+    font-weight: lighter;
+    font-size: 21px;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+}
+
+.bolinha{list-style: none;}
+
+.itensmenu{
+    margin: 10px;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+
+.gray{
+    font-weight: lighter;
+}
+
+#fullmenu{
+    background-color: #AD9966;
+    text-align: center;
+    font-size: medium;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    width: 200px;
+    padding: 15px;
+    border: none;
+   color: white;
+}
+#fidobill{
+    font-size: 15px;
+}
+#fullmenu:hover{
+    background-color: white;
+    color: #AD9966;
+    
+}
+
+#section03{
+    width: 85%;              /* ← mude aqui a largura */
+    max-width: 1100px;       /* limita o tamanho máximo */
+    margin: 0 auto;          /* centraliza */
+    padding: 0 20px;         /* espaçamento interno nas laterais */
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 1760px;
+   
+}
+
+#g1{
+    position: absolute;
+    top: -20px;
+    left: 5px;
+}
+
+#g1:hover{
+    filter: brightness(40%);
+}
+
+#g2{
+    position: absolute;
+    left: 590px;
+    top: 360px;
+}
+
+#g2:hover{
+    filter: brightness(40%);
+}
+
+#g3{
+    position: absolute;
+    top: 810px;
+    left: 105px;
+}
+
+#g3:hover{
+    filter: brightness(40%);
+}
+
+#g4{
+    position: absolute;
+    top: 950px;
+    right: -45px;
+}
+
+#g4:hover{
+    filter: brightness(40%);
+}
+
+#section04{
+    position: relative;
+}
+
+#form{
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    height: 950px;
+    background-color: #faf5f0;
+    margin-left: 350px;
+}
+
+#ladoform{
+    position: absolute;
+    width: 40%;
+    height:550px;
+    margin-left: 800px;
+    top: 10%;
+}
+
+#ladoform h1{
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-weight: lighter;
+    text-align: left;
+}
+#form div{
+    text-align: center;
+}
+
+#formbutton{
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    width: 187px;
+    height: 47px;
+    padding: 10px;
+    border-color: #AD9966;
+    border-style:groove;
+    color: white;
+    font-size: 15px;
+    top: 710px;
+    left: 416.5px;
+    
+    background-color: #000;
+    color: white;
+    padding: 14px 32px;
+    border: none;
+   letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+#nome{
+    width: 80%;
+    margin-top: 130px;
+}
+
+#data{
+    width: 240px;
+    margin-left: 68px;
+}
+
+#tempo{
+    width: 240px;
+    margin-left: 28px;
+}
+
+#guests{
+    width: 240px;
+    margin-left: 68px;
+}
+
+#budget{
+    width: 240px;
+    margin-left: 28px;
+}
+
+#contactname{
+    width: 80%;
+    margin-top: 20px;
+}
+
+#emailad{
+    width: 80%;
+    margin-top: 20px;
+}
+
+#phonenum{
+    width: 80%;
+}
+
+#message{
+    width: 80%;
+    height: 200px;
+}
+
+.itensform{
+    display: inline-block;
+}
+
+.inputmargin{
+    margin: 10px;
+}
+
+.lorem{
+    line-height: 31px;
+    text-align: left;
+    color: #615d5d;
+   
+}
+
+#chef{
+    position: absolute;
+    background-image: url(chefs-quotes.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 570px;
+    height: 1000px;
+    left: 500px;
+    top:770px
+}
+
+#quotes{
+    position: absolute;
+    right: 270px;
+    top: 1030px;
+    text-align: left;
+    width: 70%;
+}
+
+#quotes h1{
+    font-size: 57px;
+    font-weight: lighter;
+    font-family: "Playfair Display", serif;
+    text-align: left;
+}
+
+#signature{
+    position: absolute;
+    width: 200px;
+    height: 200px;   
+    background-image: url(signature.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 1400px;
+    right: 470px;
+}
+
+#section05{
+    position: relative;
+    height: 70vh;
+}
+
+#bgmaincourse{
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    background-image: url(callaction-bg.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 850px;
+}
+
+#maincourse{
+    z-index: 0;
+    position: absolute;
+    text-align: center;
+    padding-top: 30px;
+    width: 500px;
+    height: 150px;
+    opacity: 90%;
+    background-color: white;
+    top: 200px;
+    left: 36%;
+}
+#maincourse h1{
+    font-size: 23px;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#maincourse h5{
+    padding-top: 30px;
+    opacity: 60%;
+}
+
+#maincourse h6{
+    opacity: 40%;
+    font-size: 10px;
+}
+
+#section06{
+    position: relative;
+    height: 1570px;
+}
+
+#contact{
+    position: absolute;
+    width: 30%;
+    height: 100vh;
+    top: 1000px;
+    left: 900px;
+}
+
+#contact h1{
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-weight: lighter;
+}
+
+#contact ul{
+list-style: none;
+line-height: 40px;
+opacity: 40%;
+}
+
+.espacinho{
+    padding-top: 30px;
+}
+
+footer{
+    background-color: #04091e;
+    height: 500px;
+    text-align: left;
+    padding-left: 10%;
+}
+footer ul{
+    display: inline-block;
+    list-style: none;
+}
+
+footer li{
+    padding-left: 11%;
+}
+
+.ulwide{
+    width: 190px;
+}
+
+.titulofooter{
+    margin-top: 50%;
+    color: white;
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+
+.itensfooter{
+    line-height: 30px;
+    color: white;
+    opacity: 40%;
+}
+
+.liwidth{
+    width: 100%;
+}
+
+.inputs{
+    width: 300px;
+    height: 37px;
+}
+
+#emailfooter{
+    width: 300px;
+    height: 37px;
+    background-color: #04091e;
+    border-color:white;
+}
+
+#buttonfoot{
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    margin-left: 30px;
+    vertical-align: bottom;
+    background-color: #AD9966;
+    color: white;
+    font-size: 20px;
+    bottom: -2.5px;
+    left: 260px;
+} 
+
+.inlineblock{
+    display: inline-block;
+    
+}
+
+.gambiarra{
+    position: absolute;
+    bottom: 56.4px;
+    left: 760px;
+}
+
+#heart{
+    color: #e6b843;
+    font-size: 25px;
+    vertical-align: bottom;
+}
+
+.whitea{
+    color: white;
+    font-size: 15px;
+}
+
+#acor{
+    color: #AD9966;
+    opacity: 100%;
+}
+
+footer p{
+    position: absolute;
+    left: 169px;
+    padding-top: 60px;
+}
+
+#footrelative{
+    position: relative;
+}
+
+.icons{
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff1a;
+}
+
+#facebook{
+    position: absolute;
+    right: 652px;
+    top: 7350px;
+    background-image: url(face.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#twitter{
+    position: absolute;
+    right: 616px;
+    top: 7350px;
+    background-image: url(twitter.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#bola{
+    position: absolute;
+    right: 580px;
+    top:7350px;
+    background-image: url(dribbble.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#be{
+    position: absolute;
+    right: 544px;
+    top: 7350px;
+    background-image: url(behance.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icons:hover{
+    background-color: #AD9966;
+}
